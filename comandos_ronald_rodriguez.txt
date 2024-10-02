@@ -1,0 +1,96 @@
+consultar versiones node
+
+node --versión
+
+node -v #mirar la versión de node
+
+npm:un gestor de paquetes.
+
+borrar las carpetas de npm en roamig y npm cache en local.
+
+npm i -g react #instalacion de react de manera global.
+
+npm install -g npm@10.8.3 #para ver la versión, aunque puede cambiar.
+
+npm view react versión #para ver la versión.  
+
+npm -v #mirar la versión.
+
+npm i -g typescript #para instalar typescript.
+
+react --versión se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+tsc --versión #ver la versión de typescript
+
+tsc -v #ver la versión de typescript.
+
+npm create vite@latest proyectoreact
+
+cd proyectoreact
+
+npm i #instalar npm
+
+mkdir src\assets\img #crear una carpeta dentro de una carpeta.
+
+npm run dev
+
+https://github.com/ronald-90/react1_ronald_miercoles2.git #para clonar
+
+- pones npm create vite@latest "nombre del proyecto" 
+- pones cd "nombre del proyecto"
+- pones "npm i" para descargar los módulos de una carpeta que se llama node_modules
+- pones "code . " Para entrar a visual studio
+
+buenas practicas 02_octubre
+
+#proyecto libro
+npm create vite@latest "proyecto_libros"
+cd "proyecto_libros"
+code .
+#creo el archivo workspace - guardar en el área de trabajo desde visual (workspace)
+server:{port: 8087} #agregar eso al vite.config.ts
+
+md src\assets\img #crear carpeta personalizado
+md src\app\componentes #crear una nueva carpeta
+md src\app\componentes\libros #creamos una carpeta dentro de otra carpeta
+md src\app\componentes\contenedor #creamos una carpeta dentro de otra carpeta
+md src\app\componentes\libros #creamos una carpeta dentro de otra carpeta
+md src\app\componentes\otros  #creamos una carpeta dentro de otra carpeta
+
+md src\app\mocks    #crear una nueva carpeta
+
+md src\app\modelos  #crear una nueva carpeta
+
+md src\app\utilidades #creamos una carpeta dentro de otra carpeta
+md src\app\utilidades\dominios #creamos una carpeta dentro de otra carpeta
+md src\app\utilidades\funciones #creamos una carpeta dentro de otra carpeta
+md src\app\utilidades\miHooks #creamos una carpeta dentro de otra carpeta
+md src\app\utilidades\rutas  #creamos una carpeta dentro de otra carpeta
+
+npm i bootstrap #ahora descargamos una nueva extencion 
+npm i bootstrap-icons #para descargar
+npm i react-bootstrap #para descargar
+npm i react-router-dom #para descargar
+npm i react-toastify #para descargar
+
+npm i @fortawesome/fontawesome-free #para descargar
+npm i js-sha512 #para descargar
+npm i jwt-decode #para descargar
+#Se descargan las imágenes del proyecto
+#se agregan a public y a scr/assets/img
+#se modifica el titulo en index
+#se modifica el type="image/x-icon" href="public/otroicon.ico"
+
+#vamos a main.tsx y en la linea 6 agregamos import "node_modules\bootstrap\dist\css\bootstrap.min.css"
+termina quedando de esta manera import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/js/bootstrap.min.js" #vamos a node_modules, buscamos bootstrap, buscamos js, buscamos boostrap.min.js clic derecho y copiar ruta de acceso  
+import "@fortawesome/fontawesome-free/css/all.css" #vamos a node_module, buscamos fortawesome/free, clic en css,clic derecho en all.css copiar ruta de acceso
+import "bootstrap-icons/font/bootstrap-icons.css"
+
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/js/bootstrap.min.js"
+import "@fortawesome/fontawesome-free/css/all.css"
+import "bootstrap-icons/font/bootstrap-icons.css"
+
+
