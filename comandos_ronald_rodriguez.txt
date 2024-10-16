@@ -77,6 +77,7 @@ npm i react-toastify #para descargar
 npm i @fortawesome/fontawesome-free #para descargar
 npm i js-sha512 #para descargar
 npm i jwt-decode #para descargar
+
 #Se descargan las imágenes del proyecto
 #se agregan a public y a scr/assets/img
 #se modifica el titulo en index
@@ -86,11 +87,28 @@ npm i jwt-decode #para descargar
 termina quedando de esta manera import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js" #vamos a node_modules, buscamos bootstrap, buscamos js, buscamos boostrap.min.js clic derecho y copiar ruta de acceso  
 import "@fortawesome/fontawesome-free/css/all.css" #vamos a node_module, buscamos fortawesome/free, clic en css,clic derecho en all.css copiar ruta de acceso
-import "bootstrap-icons/font/bootstrap-icons.css"
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js"
 import "@fortawesome/fontawesome-free/css/all.css"
 import "bootstrap-icons/font/bootstrap-icons.css"
 
+creación de los componentes
+#se crea un componentes/cabecera.tsx
+
+16_octubre_2014
+npm i #instalar npm
+#se modifica los carpetas creadas (contenedores, libros,otros)
+#se le crea una estructura a cabecera
+export const Cabecera = ()=>{
+    return(
+        <>
+        Hola soy la Cabecera <br  />
+        El menu de arriba
+        </>
+    );
+};
+/ = raiz - inicio
+* = 
+app.css = componente principal de nuestro proyecto
 
